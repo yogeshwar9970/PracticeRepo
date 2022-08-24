@@ -11,4 +11,11 @@ public class ApplicationController {
     public String helloByYogesh(){
         return "welcome to yogeshwar's repo";
     }
+
+    @RequestMapping
+    public String helloByRanjit(){
+        return "welcome to ranjit's repo";
+    }
+
+
 }
